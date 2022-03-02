@@ -1,0 +1,36 @@
+body
+{
+  font-family: 'Lato', sans-serif;
+}
+
+.background
+{
+  background-color: darkgoldenrod;
+}
+
+#newgame
+{
+  margin-top: 80px;
+  margin-left: 620px;
+  position: absolute;
+  border: none;
+  background: none;
+}
+
+#rolldice
+{
+  margin-top: 460px;
+  margin-left: 620px;
+  position: absolute;
+  border: none;
+  background: none;
+}
+
+#hold
+{
+  margin-top: 530px;
+  margin-left: 620px;
+  position: absolute;
+  border: none;
+  background: none;
+}
