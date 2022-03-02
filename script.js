@@ -56,25 +56,25 @@ if (canvas.getContext) {
         jouer.onload = () => {
             ctx.drawImage(jouer, 625, 250, 100, 100);
         }
-        jouer.src = "jeu/jouer.jpg";
+        jouer.src = "jouer.jpg";
 
         const newPartie = new Image(100, 100);
         newPartie.onload = () => {
             ctx.drawImage(newPartie, 595, 85, 15, 15);
         }
-        newPartie.src = "jeu/newgame.png";
+        newPartie.src = "newgame.png";
 
         const relancer = new Image(100, 100);
         relancer.onload = () => {
             ctx.drawImage(relancer, 600, 461, 15, 15);
         }
-        relancer.src = "jeu/rolldice.png";
+        relancer.src = "rolldice.png";
 
         const enregistrer = new Image(100, 100);
         enregistrer.onload = () => {
             ctx.drawImage(enregistrer, 615, 530, 15, 15);
         }
-        enregistrer.src = "jeu/hold.png";
+        enregistrer.src = "hold.png";
     }
 }
 
@@ -115,7 +115,7 @@ function lancerDe() {
     img.onload = () => {
         ctx.drawImage(img, 625, 250, 100, 100);
     }
-    img.src = "jeu/" + points + ".png";
+    img.src = points + ".png";
 
     if (points == 1) {
         joueur.scoreTemporaire = 0;
@@ -133,7 +133,7 @@ function lancerDe() {
             pt1.onload = () => {
                 ctx.drawImage(pt1, 1155, 190, 15, 15);
             }
-            pt1.src = "jeu/pointRouge.png";
+            pt1.src = "pointRouge.png";
         }
 
         else {
@@ -147,7 +147,7 @@ function lancerDe() {
             pt.onload = () => {
                 ctx.drawImage(pt, 480, 190, 15, 15);
             }
-            pt.src = "jeu/pointRouge.png";
+            pt.src = "pointRouge.png";
         }
     }
 
@@ -223,7 +223,7 @@ function enregistrerPoint() {
             pt1.onload = () => {
                 ctx.drawImage(pt1, 1155, 190, 15, 15);
             }
-            pt1.src = "jeu/pointRouge.png";
+            pt1.src = "pointRouge.png";
         }
 
         else {
@@ -252,7 +252,7 @@ function enregistrerPoint() {
             pt.onload = () => {
                 ctx.drawImage(pt, 480, 190, 15, 15);
             }
-            pt.src = "jeu/pointRouge.png";
+            pt.src = "pointRouge.png";
         }
 
         calculPoints(joueur);
@@ -313,7 +313,7 @@ function commencerPartie() {
     pt.onload = () => {
         ctx.drawImage(pt, 480, 190, 15, 15);
     }
-    pt.src = "jeu/pointRouge.png";
+    pt.src = "pointRouge.png";
 
     const pt1 = new Image(100, 100);
     pt1.onload = () => {
